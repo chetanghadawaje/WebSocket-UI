@@ -1,0 +1,153 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: silver;
+}
+
+.button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover,
+button:focus {
+  background-color: #4cceea;
+}
+
+.button_id_submit {
+  border-radius: 50%;
+  height: 38px;
+  width: 38px;
+  color: grey;
+}
+
+.button_id_submit .fa-paper-plane {
+  color: grey;
+}
+
+.button_id_submit:hover .fa-paper-plane {
+  color: white;
+}
+
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 95%;
+  padding: 0 26px;
+  position: relative;
+}
+
+.chatbox__row {
+  display: block;
+}
+
+.chatbox__row_fullheight {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.head {
+  display: inline-flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  padding: 11px 0 13px 0;
+}
+
+.head:after {
+  background-color: #edeef1;
+  height: 2px;
+  width: 100%;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+
+.head__title {
+  color: #5b6171;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 21px;
+  padding-top: 3px;
+}
+
+.head__note {
+  color: #a0a3b1;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: auto;
+  padding-right: 18px;
+  padding-top: 3px;
+}
+
+.chatbox__content {
+  height: 100%;
+}
+
+.enter {
+  position: relative;
+  padding-top: 12px;
+  padding-bottom: 14px;
+}
+
+.enter:before {
+  background-color: #edeef1;
+  height: 2px;
+  width: 100%;
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+}
+
+.enter__submit {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  border: 2px solid #e2e3e7;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.enter__textarea {
+  padding-right: 50px;
+}
+
+.enter__textarea textarea {
+    width: 100%;
+    resize: none;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border: solid 1px;
+    border-radius: 30px;
+    text-indent: 20px;
+}
+
+.enter__icons {
+  padding-right: 50px;
+  font-size: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.enter__icons .fa-paperclip,
+.enter__icons .fa-smile-o {
+  font-size: 16px;
+  color: grey;
+}
+
+.enter__icon {
+  margin-right: 12px;
+}

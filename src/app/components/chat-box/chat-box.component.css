@@ -1,0 +1,26 @@
+.message__note {
+    opacity: 0.5;
+    color: #5b6171;
+    font-size: 12px;
+    padding: 12px 80px 10px 20px;
+}
+
+.message__base {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+
+
+.message__textbox {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    width: 100%;
+    min-height: 43px;
+    background-color: #f5f6fa;
+    border-radius: 9px;
+    padding: 11px 25px 12px 25px;
+    color: #6a6d77;
+}
